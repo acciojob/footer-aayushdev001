@@ -1,1 +1,35 @@
-/* your code here */
+html
+{
+    background-color: black;
+    color: white;
+}
+body{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+img{
+    height: 80px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px
+}
+.link-boxes{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+.bottom-details{
+    display: flex;
+    justify-content: space-between;
+}
+a:any-link
+{
+    color: white;
+    text-decoration: none;
+}
